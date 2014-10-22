@@ -1,0 +1,6 @@
+*.xcuserstate
+*.xcscheme
+*.xcbkptlist
+BlueBeacon.xcodeproj/xcuserdata/*
+BlueBeacon.xcodeproj/project.xcworkspace/xcuserdata/*
+.DS_Store
