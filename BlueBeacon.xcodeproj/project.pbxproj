@@ -13,7 +13,6 @@
 		0551214D19F55F5300ED3B74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0551214C19F55F5300ED3B74 /* Images.xcassets */; };
 		0551215019F55F5300ED3B74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0551214E19F55F5300ED3B74 /* LaunchScreen.xib */; };
 		0551215C19F55F5300ED3B74 /* BlueBeaconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0551215B19F55F5300ED3B74 /* BlueBeaconTests.swift */; };
-		0551217019F5619D00ED3B74 /* BlueCapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0551216B19F5618800ED3B74 /* BlueCapKit.framework */; };
 		0551217219F561A600ED3B74 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0551217119F561A600ED3B74 /* CoreLocation.framework */; };
 		0551217419F561B100ED3B74 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0551217319F561B100ED3B74 /* CoreBluetooth.framework */; };
 		0551217519F561F200ED3B74 /* BlueCapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0551216B19F5618800ED3B74 /* BlueCapKit.framework */; };
@@ -96,7 +95,6 @@
 				0551217519F561F200ED3B74 /* BlueCapKit.framework in Frameworks */,
 				0551217419F561B100ED3B74 /* CoreBluetooth.framework in Frameworks */,
 				0551217219F561A600ED3B74 /* CoreLocation.framework in Frameworks */,
-				0551217019F5619D00ED3B74 /* BlueCapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,11 +223,12 @@
 		0551213819F55F5300ED3B74 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = gnos.us;
 				TargetAttributes = {
 					0551213F19F55F5300ED3B74 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = HZEX459C37;
 					};
 					0551215419F55F5300ED3B74 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -438,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BlueBeacon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
@@ -450,6 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BlueBeacon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +510,7 @@
 				0551216119F55F5300ED3B74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0551216219F55F5300ED3B74 /* Build configuration list for PBXNativeTarget "BlueBeaconTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +519,7 @@
 				0551216419F55F5300ED3B74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
